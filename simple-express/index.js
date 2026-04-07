@@ -13,6 +13,10 @@ app.get('/test', (req, res) => {
   });
 });
 
+app.post('/echo', (req, res) => {
+  res.json(req.body);
+});
+
 app.listen(port, () => {
   console.log(`App is live at http://localhost:${port}`);
 });
