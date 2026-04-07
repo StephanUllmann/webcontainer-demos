@@ -1,8 +1,8 @@
+import 'dotenv/config';
 import express from 'express';
 import { postRouter, userRouter } from '#routes';
 import '#db';
 import { errorHandler } from '#middleware';
-
 const app = express();
 const port = process.env.PORT || 8080;
 
