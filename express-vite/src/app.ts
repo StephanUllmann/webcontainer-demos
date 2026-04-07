@@ -19,16 +19,14 @@ app.post('/echo', (req, res) => {
 });
 
 app.get('/whatever', (req, res) => {
-  res.setHeader('Content-Type', 'text/html');
+  res.header('Content-Type', 'text/html');
   res.send(
     `<h1>Hello</h1><img src='https://upload.wikimedia.org/wikipedia/commons/8/8d/LS3_4919_%28cropped%29.jpg'  alt=''/>`
   );
 });
 
-if (import.meta.env.PROD) {
-  app.listen(3000, () => {
-    console.log('Server is running on port 3000');
-  });
-}
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
 
 export const viteNodeApp = app;
