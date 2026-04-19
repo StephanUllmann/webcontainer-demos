@@ -1,5 +1,5 @@
 import express from 'express';
-import { cors } from 'cors';
+import cors from 'cors';
 import { blogPostRoutes } from '#routes';
 import { errorHandler, notFoundHandler } from '#middleware';
 import initDB from '#db';
