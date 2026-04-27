@@ -1,4 +1,4 @@
-import { Schema, model } from 'mongoose';
+import { Schema, model } from 'mockgoose';
 
 const readingListSchema = new Schema({
   bookRefId: {

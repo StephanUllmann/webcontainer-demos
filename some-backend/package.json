@@ -12,13 +12,13 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "mongoose": "npm:@stephanullmann/mockgoose@latest",
+    "mockgoose": "npm:@stephanullmann/mockgoose@latest",
     "bcryptjs": "^3.0.3",
     "chalk": "^5.6.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose-og": "npm:mongoose@^9.0.0"
+    "mongoose": "npm:mongoose@^9.0.0"
   }
 }

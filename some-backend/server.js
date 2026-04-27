@@ -3,7 +3,7 @@ import chalk from 'chalk';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import './db/index.js';
-import mongoose from 'mongoose';
+import mongoose from 'mockgoose';
 import { errorHandler } from './middlewares/index.js';
 import { userRouter, bookRouter } from './routers/index.js';
 
@@ -19,9 +19,9 @@ app.use(
   cors()
 );
 
-app.get('/health', async (_req, res) => {
-  const { ok } = await mongoose.connection.db.admin().ping();
-  if (!ok) throw new Error('DB is unconnected', { cause: 503 });
+app.get('/', async (_req, res) => {
+  // const { ok } = await mongoose.connection.db.admin().ping();
+  // if (!ok) throw new Error('DB is unconnected', { cause: 503 });
   res.json({ msg: 'Running' });
 });
 

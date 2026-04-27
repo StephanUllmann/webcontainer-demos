@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import mongoose from 'mongoose';
+import mongoose from 'mockgoose';
 
 try {
   const mongo = await mongoose.connect(process.env.MONGO_URI, {
