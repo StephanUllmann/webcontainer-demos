@@ -8,9 +8,6 @@ const MONGODB_URI =
 
 export const connectDB = async () => {
   try {
-    // Weird hack to make db connection working in webcontainers
-    mongoose.connect(MONGODB_URI).catch(() => {});
-    // usual connection
     await mongoose.connect(MONGODB_URI);
     console.log('MongoDB connected successfully');
   } catch (error) {

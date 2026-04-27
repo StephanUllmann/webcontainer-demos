@@ -1,0 +1,45 @@
+{
+  "69ee12310345961010f3e2de": {
+    "_id": "69ee12310345961010f3e2de",
+    "title": "The Silent Patient",
+    "isbn": "978-1250301697",
+    "summary": "A famous painter shoots her husband five times in the face and then never speaks another word.",
+    "author": "69ee102db6c0f2572fb79bf7",
+    "publishedDate": "2019-02-05T00:00:00.000Z",
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Psychological Fiction"
+    ]
+  },
+  "69ee1231f08ed776051ef378": {
+    "_id": "69ee1231f08ed776051ef378",
+    "title": "test",
+    "isbn": "978-0735211292",
+    "summary": "No matter your goals, Atomic Habits offers a proven framework for improving--every day.",
+    "author": {
+      "_id": "69ee102d4cb6c952ccc62847",
+      "name": "J.R.R.",
+      "age": 123
+    },
+    "publishedDate": "2018-10-16T00:00:00.000Z",
+    "genres": [
+      "Self-Help",
+      "Psychology",
+      "Non-fiction"
+    ]
+  },
+  "69ee1231b41f31a4c279b951": {
+    "_id": "69ee1231b41f31a4c279b951",
+    "title": "Hail Mary",
+    "isbn": "978-0593135204",
+    "author": {
+      "_id": "69ee102da4186ae8e2db22c1",
+      "name": "Bobby",
+      "agre": 42
+    },
+    "genres": [
+      "Science Fiction"
+    ]
+  }
+}

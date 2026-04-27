@@ -7,7 +7,10 @@ export class AuthorService {
     return await author.save();
   }
 
-  static async getAuthors(query: any = {}, options: { page?: number; limit?: number } = {}) {
+  static async getAuthors(
+    query: any = {},
+    options: { page?: number; limit?: number } = {}
+  ) {
     const { page = 1, limit = 10 } = options;
     const skip = (page - 1) * limit;
 
@@ -19,7 +22,12 @@ export class AuthorService {
       filter.nationality = query.nationality;
     }
 
-    const authors = await Author.find(filter).skip(skip).limit(limit).sort({ name: 1 }).lean().exec();
+    const authors = await Author.find(filter)
+      .skip(skip)
+      .limit(limit)
+      .sort({ name: 1 })
+      .lean()
+      .exec();
     const total = await Author.countDocuments(filter).exec();
 
     return {
@@ -38,7 +46,12 @@ export class AuthorService {
   }
 
   static async updateAuthor(id: string, data: any) {
-    return await Author.findByIdAndUpdate(id, data, { new: true, runValidators: true }).lean().exec();
+    return await Author.findByIdAndUpdate(id, data, {
+      new: true,
+      runValidators: true,
+    })
+      .lean()
+      .exec();
   }
 
   static async deleteAuthor(id: string) {

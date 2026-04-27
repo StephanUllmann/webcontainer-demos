@@ -1,0 +1,50 @@
+{
+  "69ef5b2db374961f3c938554": {
+    "_id": "69ef5b2db374961f3c938554",
+    "title": "The Silent Patient",
+    "isbn": "978-1250301697",
+    "summary": "A famous painter shoots her husband five times in the face and then never speaks another word.",
+    "author": "69ee102db6c0f2572fb79bf7",
+    "publishedDate": "2019-02-05T00:00:00.000Z",
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Psychological Fiction"
+    ]
+  },
+  "69ef5b2d05653fb5549efc38": {
+    "_id": "69ef5b2d05653fb5549efc38",
+    "title": "test",
+    "isbn": "978-0441172719",
+    "summary": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the 'spice' melange.",
+    "author": "69ee102da4186ae8e2db22c1",
+    "publishedDate": "1965-08-01T00:00:00.000Z",
+    "genres": [
+      "Science Fiction",
+      "Fantasy",
+      "Adventure"
+    ]
+  },
+  "69ef5b2d5205f2624c724132": {
+    "_id": "69ef5b2d5205f2624c724132",
+    "title": "Atomic Habits",
+    "isbn": "978-0735211292",
+    "summary": "No matter your goals, Atomic Habits offers a proven framework for improving--every day.",
+    "author": "69ee102d4cb6c952ccc62847",
+    "publishedDate": "2018-10-16T00:00:00.000Z",
+    "genres": [
+      "Self-Help",
+      "Psychology",
+      "Non-fiction"
+    ]
+  },
+  "69ef5b2df350fabf4f64ad13": {
+    "_id": "69ef5b2df350fabf4f64ad13",
+    "title": "Project Hail Mary",
+    "isbn": "978-0593135204",
+    "author": "69ee102da4186ae8e2db22c1",
+    "genres": [
+      "Science Fiction"
+    ]
+  }
+}
