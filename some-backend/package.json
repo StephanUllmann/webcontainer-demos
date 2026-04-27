@@ -12,7 +12,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "mongoose": "npm:@jsr/ullmann__mockgoose@^0.0.3",
+    "mongoose": "npm:@stephanullmann/mockgoose@latest",
     "bcryptjs": "^3.0.3",
     "chalk": "^5.6.0",
     "cookie-parser": "^1.4.7",
