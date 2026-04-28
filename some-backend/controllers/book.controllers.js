@@ -10,7 +10,7 @@ const getAllBooks = async (req, res) => {
   const parsedPage = parseInt(page) ?? 1;
   const offset = (parsedPage - 1) * limit;
 
-  const books = await Book.find().limit(limit).skip(offset);
+  const books = await Book.find({}).limit(limit).skip(offset);
   res.json({ data: books });
 };
 
@@ -23,7 +23,10 @@ const getOneBook = async (req, res) => {
 
 const updateOneBook = async (req, res) => {
   const { id } = req.params;
-  const book = await Book.findByIdAndUpdate(id, req.body, { new: true, runValidators: true });
+  const book = await Book.findByIdAndUpdate(id, req.body, {
+    new: true,
+    runValidators: true,
+  });
   if (!book) throw new Error('Book not found', { cause: 404 });
   res.json({ data: book });
 };
