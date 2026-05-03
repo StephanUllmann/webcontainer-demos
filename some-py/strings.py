@@ -31,7 +31,7 @@ print(bio)
 print(bio.strip())
 # print(bio)
 
-input().strip()
+# input().strip()
 print(bio.replace("Python", "coding"))
 print(bio.strip().replace("\n", " ").split(" "))
 # greeting = 'He said, "Python' + 's great!"'
