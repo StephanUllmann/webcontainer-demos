@@ -11,17 +11,6 @@ lines
 """
 
 
-bio = f"""
-  My name is {first_name} {last_name}.
-I am learning Python.
-Programming is awesome!
-Python!
-
-"""
-
-
-print(bio)
-
 #             01
 book_title = "Käpt'n Blaubär"
 print(book_title[1])
