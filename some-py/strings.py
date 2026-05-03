@@ -11,6 +11,8 @@ lines
 """
 
 
+bio = f" My name is {first_name} {last_name}.\nI am learning Python.\nProgramming is awesome!"
+
 #             01
 book_title = "Käpt'n Blaubär"
 print(book_title[1])
