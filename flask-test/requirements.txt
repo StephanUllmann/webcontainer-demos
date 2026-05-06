@@ -1,0 +1,10 @@
+blinker
+click
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+psycopg2-binary
+python-dotenv
+Werkzeug
+gunicorn
